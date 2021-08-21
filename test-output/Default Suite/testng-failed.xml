@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="AxiomAssignment(failed)">
+    <classes>
+      <class name="E2E_ProductCheckoutJourney">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="endTestSuite"/>
+          <include name="initializeTest"/>
+          <include name="endTestMethod"/>
+          <include name="verifyProductCheckoutJourney" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetUp"/>
+        </methods>
+      </class> <!-- E2E_ProductCheckoutJourney -->
+    </classes>
+  </test> <!-- AxiomAssignment(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

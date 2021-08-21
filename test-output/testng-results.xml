@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Scenario: Product Order checkout journey
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Verify Home screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Verify Header banner icons in home screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Enter Product Type in search field
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Verify product catalog details
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Verify Product Variant Info 
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Return the Product details from Product List screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 7: Select the first Product from list
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 8: Verify toolbar title in Product Detail screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 9: Verify the Product details in Product Detail screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 10: Select product quantity
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 11: Return the selected Product Quantity
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 12: Click Add To Shopping Bag button
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 13: Navigate back to Home screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 14: Verify the cart item badge count
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 15: Verify Shopping cart title
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 16: Verify Product details in Shopping cart screen
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 17: Verify and Select Remove button
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 18: Verify Remove alert popup
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 19: Select Yes button to remove all products from cart
+]]>
+    </line>
+    <line>
+      <![CDATA[Step 20: Verify Empty cart message
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="34336" started-at="2021-08-21T16:36:39 GST" finished-at="2021-08-21T16:37:14 GST">
+    <groups>
+    </groups>
+    <test name="AxiomAssignment" duration-ms="34336" started-at="2021-08-21T16:36:39 GST" finished-at="2021-08-21T16:37:14 GST">
+      <class name="E2E_ProductCheckoutJourney">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="setUp" is-config="true" duration-ms="1403" started-at="2021-08-21T16:36:38 GST" finished-at="2021-08-21T16:36:39 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializeTestBaseSetUp()[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="initializeTestBaseSetUp" is-config="true" duration-ms="7935" started-at="2021-08-21T16:36:39 GST" finished-at="2021-08-21T16:36:47 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetUp -->
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="initializeTest" is-config="true" duration-ms="119" started-at="2021-08-21T16:36:48 GST" finished-at="2021-08-21T16:36:48 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ab6718]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="verifyProductCheckoutJourney(java.util.HashMap)[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="verifyProductCheckoutJourney" duration-ms="25724" started-at="2021-08-21T16:36:48 GST" data-provider="getExcelData" finished-at="2021-08-21T16:37:13 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductQuantity=2, ProductType=Table}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Scenario: Product Order checkout journey
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Verify Home screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Verify Header banner icons in home screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Enter Product Type in search field
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Verify product catalog details
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Verify Product Variant Info 
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Return the Product details from Product List screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 7: Select the first Product from list
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 8: Verify toolbar title in Product Detail screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 9: Verify the Product details in Product Detail screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 10: Select product quantity
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 11: Return the selected Product Quantity
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 12: Click Add To Shopping Bag button
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 13: Navigate back to Home screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 14: Verify the cart item badge count
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 15: Verify Shopping cart title
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 16: Verify Product details in Shopping cart screen
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 17: Verify and Select Remove button
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 18: Verify Remove alert popup
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 19: Select Yes button to remove all products from cart
+]]>
+            </line>
+            <line>
+              <![CDATA[Step 20: Verify Empty cart message
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCheckoutJourney -->
+        <test-method status="PASS" signature="endTestMethod()[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="endTestMethod" is-config="true" duration-ms="210" started-at="2021-08-21T16:37:13 GST" finished-at="2021-08-21T16:37:14 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-08-21T16:37:14 GST" finished-at="2021-08-21T16:37:14 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endTestSuite()[pri:0, instance:E2E_ProductCheckoutJourney@5f9d02cb]" name="endTestSuite" is-config="true" duration-ms="485" started-at="2021-08-21T16:37:14 GST" finished-at="2021-08-21T16:37:14 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestSuite -->
+      </class> <!-- E2E_ProductCheckoutJourney -->
+    </test> <!-- AxiomAssignment -->
+  </suite> <!-- Default Suite -->
+</testng-results>
